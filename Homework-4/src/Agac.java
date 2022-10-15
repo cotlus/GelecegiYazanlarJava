@@ -1,5 +1,4 @@
 public class Agac {
-    private final boolean igneYaprak = true;
     private String latinceAd;
     private boolean isikAgaci;
     private int ortalamaBoy;
@@ -10,9 +9,6 @@ public class Agac {
         this.ortalamaBoy = ortalamaBoy;
     }
 
-    public boolean isIgneYaprak() {
-        return igneYaprak;
-    }
 
     public String getLatinceAd() {
         return latinceAd;

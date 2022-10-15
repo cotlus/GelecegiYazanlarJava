@@ -1,4 +1,5 @@
 public class IgneYaprakli extends Agac {
+
     private final int cap;
     private final String cag;
 
@@ -14,13 +15,14 @@ public class IgneYaprakli extends Agac {
     public void agacBilgi() {
         String isikDurumu;
         if (isIsikAgaci()) {
-            isikDurumu = "Işık ağacı";
-        } else {
             isikDurumu = "Gölge ağacı";
+        } else {
+            isikDurumu = "Işık ağacı";
         }
 
         String yaprak;
-        if (isIgneYaprak()) {
+        boolean igneYaprak = true;
+        if (igneYaprak) {
             yaprak = "İğne yapraklı";
         } else {
             yaprak = "Geniş yapraklı";
