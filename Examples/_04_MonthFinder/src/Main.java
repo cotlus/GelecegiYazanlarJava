@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public enum months{
+    private enum months{
         January, February, March, April, May, June, July, August, September, October, November, December
     }
 
